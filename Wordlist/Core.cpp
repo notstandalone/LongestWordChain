@@ -2,18 +2,26 @@
 #include <string>
 #include "Core.h"
 
-/*计算单词最长链*/
-int gen_chain(char * words[], int len, char * result[])
+void Core::charToVector(char * words[])
+{
+	//TODO
+}
+
+void Core::topologySort(std::vector<Node*>* topologyWord, int weight[])
+{
+	//TODO
+}
+
+void Core::dynamicProgramAlgo()
+{
+}
+
+int Core::gen_chain_word(char * words[], int len, char * result[], char head, char tail, bool enable_loop)
 {
 	return 0;
 }
 
-int gen_chain_word(char * words[], int len, char * result[], char head, char tail, bool enable_loop)
-{
-	return 0;
-}
-
-int gen_chain_char(char * words[], int len, char * result[], char head, char tail, bool enable_loop)
+int Core::gen_chain_char(char * words[], int len, char * result[], char head, char tail, bool enable_loop)
 {
 	return 0;
 }

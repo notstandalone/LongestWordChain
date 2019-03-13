@@ -3,6 +3,8 @@
 
 #define WORDLIST_H_
 
+constexpr auto ALPHA_LENGTH = 26;			//开头字母种类;
+
 /*静态全局变量，参数表*/
 static char opt[5][5] = {
 	"-w", "-c", "-r", "-h", "-t"
